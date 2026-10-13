@@ -1,4 +1,4 @@
-﻿
+
 namespace GithubActionsLab;
 
 public class Program
