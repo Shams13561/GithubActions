@@ -1,7 +1,7 @@
 
 name: 'Run App Kader, Kazi Mohammad Shams Al'
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build-and-test:
@@ -16,3 +16,4 @@ jobs:
         run: dotnet build
       - name: run unit tests
         run: dotnet test
+
